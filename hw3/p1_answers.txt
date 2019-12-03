@@ -1,0 +1,49 @@
+Problem 1)
+	part a.)
+
+		   Bottom-------->Top
+
+		Stack1: (empty)
+		Stack2: (empty)
+
+		---enqueue 1---
+		Stack1: 1
+		Stack2:
+
+		---enqueue 2---
+		Stack1: 1 2
+		Stack2:
+
+		---dequeue---
+		Stack1:
+		Stack2: 2 
+
+		---enqueue 3---
+		Stack1: 3
+		Stack2: 2
+
+		---enqueue 4---
+		Stack1: 3 4 
+		Stack2: 2
+
+		---dequeue---
+		Stack1: 3 4 
+		Stack2:
+
+		---enqueue 5---
+		Stack1: 3 4 5 
+		Stack2:
+
+		---enqueue 6---
+		Stack1: 3 4 5 6
+		Stack2:
+
+	part b) 
+		The worst runtime for enqueue is O(1) becasue it's just pushing onto the stack and the stack structure attains a constant time for all operations. The worst runtime for dequeue is O(n) because as it fails the first condition it satifies the else statement which would take O(n) times since its traversing/popping from stack1 to pushing it onto stack 2 n times
+
+	part c.)
+		The amortized runtime for enqueue is O(1) becasue pushing takes O(1) times number of items (n) all divided by the number of items: (O(1)*n)/n. The amortized runtime for dequeue is O(1) because the best case is O(n) (O(1) runtimes but done n times) plus the worst case which is also O(n) (O(n) runtimes but done once) all divided by the number of items, n, which yields O(2) = O(1). 
+
+	part d.)
+		The worst runtime for enqueue is O(1) because pushing takes O(1) times. The worstcase runtime for dequeue is O(n*n) because now that popping takes O(n) times, the dequeue runtime in O(n*n) as its still traversing/popping from stack1 to pushing it onto stack 2 n times. The amortized runtime for enqueue is O(1) becasue runtime for push is O(1) times number of items,n, all divided by n: 
+		(O(1)*n)/n. The amortized runtime for dequeue is O(n) because when stack 2 is not empty the runtime is O(n*n) (pop runtime is O(n) times number of items, n) plus O(n*n) when stack 2 is empty all divided by n which is O(2n) = O(n).

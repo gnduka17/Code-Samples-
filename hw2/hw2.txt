@@ -1,0 +1,26 @@
+Problem 1
+
+a.) the status of README would be untracked because nothing has been done to the file.
+
+b.) README is modified beacuse whats inside have been changed and fun_problem.txt is untracked because git does not have information on the file since it previously did not exist.
+
+c.) README and funproblem are both staged because the files are all good to be committed.
+
+d.) Both the files would be modified despite the commit because the files where changed after the fact they were committed and are thus modified.
+
+e.) The readme file would be staged because it is added and ready to be committed and funproblem would be unmodified. There is nothing in the fun_problem.txt for it to be outputted because checkout goes back to unmodified version of the text. 
+
+f.) ReadMe is staged and modified because changes were made after it was staged.
+
+
+
+
+Problem 3
+
+1.)I would use a map. The keys would be the different playlists as a string, and the value would be an array holding the songs and the indicies of the array would correspond to the track numbers.
+
+2.)I would use a list because order matters when reading off a recipe and making a cake. A list of strings would be created and each step in the recipe would be an item in the list.
+
+3.) I would use a map. The key would be file extensions as a string while the value would be a vector of strings that will hold the different programs that are able to read in the file the key is equal to.
+
+4.)I would use a map, The key would be the TV station number as an integer and the value would be the station identification as a string.
