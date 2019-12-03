@@ -1,0 +1,32 @@
+Problem 1
+	Part A.)
+		1) Looking up information relevant to the course online.
+		
+		4) Asking the course staff for help.
+		
+		8)Copying test cases from my classmates or Piazza when test cases are not graded. 
+	Part B.)
+		In Lab 01, it says that it is recommended to use Sublime; In the tools and links it says to use editors: 
+			2) emacs
+
+			3) Eclipse
+
+			4) sublime
+
+			5) Microsoft Visual Studio
+	Part C.)
+		4.) Use the normal submission system provided you have grace-days available
+	Part D.) 
+		1) Use the normal submission system on the course website
+		4) Start the next assignment sooner.
+
+Problem 2
+	Part A.)
+		3) Terminal (Mac or Linux)
+
+	Part B.)
+		1) git add hw1q2b.cpp
+		2) git log -p -3
+
+	Part C.) 
+	Git will commit the changed files to the repository on github.
