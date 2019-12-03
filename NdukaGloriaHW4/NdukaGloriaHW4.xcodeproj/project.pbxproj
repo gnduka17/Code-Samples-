@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59BF5819234E961800437522 /* HW4SanityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF5818234E961700437522 /* HW4SanityTest.swift */; };
+		59BF581B234E963600437522 /* HW4AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF581A234E963600437522 /* HW4AccessibilityIdentifiers.swift */; };
+		59BF581C234E963600437522 /* HW4AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF581A234E963600437522 /* HW4AccessibilityIdentifiers.swift */; };
+		59EEA0A12349DD680028EC2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEA0A02349DD680028EC2D /* AppDelegate.swift */; };
+		59EEA0A32349DD680028EC2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEA0A22349DD680028EC2D /* ViewController.swift */; };
+		59EEA0A62349DD680028EC2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EEA0A42349DD680028EC2D /* Main.storyboard */; };
+		59EEA0A82349DD6C0028EC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59EEA0A72349DD6C0028EC2D /* Assets.xcassets */; };
+		59EEA0AB2349DD6C0028EC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EEA0A92349DD6C0028EC2D /* LaunchScreen.storyboard */; };
+		59EEA0B62349DD6C0028EC2D /* NdukaGloriaHW4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEA0B52349DD6C0028EC2D /* NdukaGloriaHW4Tests.swift */; };
+		59EEA0C12349DD6C0028EC2D /* NdukaGloriaHW4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEA0C02349DD6C0028EC2D /* NdukaGloriaHW4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59EEA0B22349DD6C0028EC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59EEA0952349DD680028EC2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59EEA09C2349DD680028EC2D;
+			remoteInfo = NdukaGloriaHW4;
+		};
+		59EEA0BD2349DD6C0028EC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59EEA0952349DD680028EC2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59EEA09C2349DD680028EC2D;
+			remoteInfo = NdukaGloriaHW4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59BF5818234E961700437522 /* HW4SanityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HW4SanityTest.swift; sourceTree = "<group>"; };
+		59BF581A234E963600437522 /* HW4AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HW4AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
+		59EEA09D2349DD680028EC2D /* NdukaGloriaHW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NdukaGloriaHW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EEA0A02349DD680028EC2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59EEA0A22349DD680028EC2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59EEA0A52349DD680028EC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59EEA0A72349DD6C0028EC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59EEA0AA2349DD6C0028EC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59EEA0AC2349DD6C0028EC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59EEA0B12349DD6C0028EC2D /* NdukaGloriaHW4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NdukaGloriaHW4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EEA0B52349DD6C0028EC2D /* NdukaGloriaHW4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NdukaGloriaHW4Tests.swift; sourceTree = "<group>"; };
+		59EEA0B72349DD6C0028EC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59EEA0BC2349DD6C0028EC2D /* NdukaGloriaHW4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NdukaGloriaHW4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EEA0C02349DD6C0028EC2D /* NdukaGloriaHW4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NdukaGloriaHW4UITests.swift; sourceTree = "<group>"; };
+		59EEA0C22349DD6C0028EC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59EEA09A2349DD680028EC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EEA0AE2349DD6C0028EC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EEA0B92349DD6C0028EC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59EEA0942349DD680028EC2D = {
+			isa = PBXGroup;
+			children = (
+				59EEA09F2349DD680028EC2D /* NdukaGloriaHW4 */,
+				59EEA0B42349DD6C0028EC2D /* NdukaGloriaHW4Tests */,
+				59EEA0BF2349DD6C0028EC2D /* NdukaGloriaHW4UITests */,
+				59EEA09E2349DD680028EC2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59EEA09E2349DD680028EC2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59EEA09D2349DD680028EC2D /* NdukaGloriaHW4.app */,
+				59EEA0B12349DD6C0028EC2D /* NdukaGloriaHW4Tests.xctest */,
+				59EEA0BC2349DD6C0028EC2D /* NdukaGloriaHW4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59EEA09F2349DD680028EC2D /* NdukaGloriaHW4 */ = {
+			isa = PBXGroup;
+			children = (
+				59EEA0A02349DD680028EC2D /* AppDelegate.swift */,
+				59BF581A234E963600437522 /* HW4AccessibilityIdentifiers.swift */,
+				59EEA0A22349DD680028EC2D /* ViewController.swift */,
+				59EEA0A42349DD680028EC2D /* Main.storyboard */,
+				59EEA0A72349DD6C0028EC2D /* Assets.xcassets */,
+				59EEA0A92349DD6C0028EC2D /* LaunchScreen.storyboard */,
+				59EEA0AC2349DD6C0028EC2D /* Info.plist */,
+			);
+			path = NdukaGloriaHW4;
+			sourceTree = "<group>";
+		};
+		59EEA0B42349DD6C0028EC2D /* NdukaGloriaHW4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59EEA0B52349DD6C0028EC2D /* NdukaGloriaHW4Tests.swift */,
+				59EEA0B72349DD6C0028EC2D /* Info.plist */,
+			);
+			path = NdukaGloriaHW4Tests;
+			sourceTree = "<group>";
+		};
+		59EEA0BF2349DD6C0028EC2D /* NdukaGloriaHW4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				59BF5818234E961700437522 /* HW4SanityTest.swift */,
+				59EEA0C02349DD6C0028EC2D /* NdukaGloriaHW4UITests.swift */,
+				59EEA0C22349DD6C0028EC2D /* Info.plist */,
+			);
+			path = NdukaGloriaHW4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59EEA09C2349DD680028EC2D /* NdukaGloriaHW4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59EEA0C52349DD6C0028EC2D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW4" */;
+			buildPhases = (
+				59EEA0992349DD680028EC2D /* Sources */,
+				59EEA09A2349DD680028EC2D /* Frameworks */,
+				59EEA09B2349DD680028EC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NdukaGloriaHW4;
+			productName = NdukaGloriaHW4;
+			productReference = 59EEA09D2349DD680028EC2D /* NdukaGloriaHW4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59EEA0B02349DD6C0028EC2D /* NdukaGloriaHW4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59EEA0C82349DD6C0028EC2D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW4Tests" */;
+			buildPhases = (
+				59EEA0AD2349DD6C0028EC2D /* Sources */,
+				59EEA0AE2349DD6C0028EC2D /* Frameworks */,
+				59EEA0AF2349DD6C0028EC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59EEA0B32349DD6C0028EC2D /* PBXTargetDependency */,
+			);
+			name = NdukaGloriaHW4Tests;
+			productName = NdukaGloriaHW4Tests;
+			productReference = 59EEA0B12349DD6C0028EC2D /* NdukaGloriaHW4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59EEA0BB2349DD6C0028EC2D /* NdukaGloriaHW4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59EEA0CB2349DD6C0028EC2D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW4UITests" */;
+			buildPhases = (
+				59EEA0B82349DD6C0028EC2D /* Sources */,
+				59EEA0B92349DD6C0028EC2D /* Frameworks */,
+				59EEA0BA2349DD6C0028EC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59EEA0BE2349DD6C0028EC2D /* PBXTargetDependency */,
+			);
+			name = NdukaGloriaHW4UITests;
+			productName = NdukaGloriaHW4UITests;
+			productReference = 59EEA0BC2349DD6C0028EC2D /* NdukaGloriaHW4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59EEA0952349DD680028EC2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Gloria Nduka";
+				TargetAttributes = {
+					59EEA09C2349DD680028EC2D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					59EEA0B02349DD6C0028EC2D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 59EEA09C2349DD680028EC2D;
+					};
+					59EEA0BB2349DD6C0028EC2D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 59EEA09C2349DD680028EC2D;
+					};
+				};
+			};
+			buildConfigurationList = 59EEA0982349DD680028EC2D /* Build configuration list for PBXProject "NdukaGloriaHW4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59EEA0942349DD680028EC2D;
+			productRefGroup = 59EEA09E2349DD680028EC2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59EEA09C2349DD680028EC2D /* NdukaGloriaHW4 */,
+				59EEA0B02349DD6C0028EC2D /* NdukaGloriaHW4Tests */,
+				59EEA0BB2349DD6C0028EC2D /* NdukaGloriaHW4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59EEA09B2349DD680028EC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EEA0AB2349DD6C0028EC2D /* LaunchScreen.storyboard in Resources */,
+				59EEA0A82349DD6C0028EC2D /* Assets.xcassets in Resources */,
+				59EEA0A62349DD680028EC2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EEA0AF2349DD6C0028EC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EEA0BA2349DD6C0028EC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59EEA0992349DD680028EC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EEA0A32349DD680028EC2D /* ViewController.swift in Sources */,
+				59BF581B234E963600437522 /* HW4AccessibilityIdentifiers.swift in Sources */,
+				59EEA0A12349DD680028EC2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EEA0AD2349DD6C0028EC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EEA0B62349DD6C0028EC2D /* NdukaGloriaHW4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EEA0B82349DD6C0028EC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EEA0C12349DD6C0028EC2D /* NdukaGloriaHW4UITests.swift in Sources */,
+				59BF581C234E963600437522 /* HW4AccessibilityIdentifiers.swift in Sources */,
+				59BF5819234E961800437522 /* HW4SanityTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59EEA0B32349DD6C0028EC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59EEA09C2349DD680028EC2D /* NdukaGloriaHW4 */;
+			targetProxy = 59EEA0B22349DD6C0028EC2D /* PBXContainerItemProxy */;
+		};
+		59EEA0BE2349DD6C0028EC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59EEA09C2349DD680028EC2D /* NdukaGloriaHW4 */;
+			targetProxy = 59EEA0BD2349DD6C0028EC2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59EEA0A42349DD680028EC2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59EEA0A52349DD680028EC2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59EEA0A92349DD6C0028EC2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59EEA0AA2349DD6C0028EC2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59EEA0C32349DD6C0028EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59EEA0C42349DD6C0028EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59EEA0C62349DD6C0028EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59EEA0C72349DD6C0028EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59EEA0C92349DD6C0028EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NdukaGloriaHW4.app/NdukaGloriaHW4";
+			};
+			name = Debug;
+		};
+		59EEA0CA2349DD6C0028EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NdukaGloriaHW4.app/NdukaGloriaHW4";
+			};
+			name = Release;
+		};
+		59EEA0CC2349DD6C0028EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NdukaGloriaHW4;
+			};
+			name = Debug;
+		};
+		59EEA0CD2349DD6C0028EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NdukaGloriaHW4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.nduka.NdukaGloriaHW4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NdukaGloriaHW4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59EEA0982349DD680028EC2D /* Build configuration list for PBXProject "NdukaGloriaHW4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EEA0C32349DD6C0028EC2D /* Debug */,
+				59EEA0C42349DD6C0028EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59EEA0C52349DD6C0028EC2D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EEA0C62349DD6C0028EC2D /* Debug */,
+				59EEA0C72349DD6C0028EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59EEA0C82349DD6C0028EC2D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EEA0C92349DD6C0028EC2D /* Debug */,
+				59EEA0CA2349DD6C0028EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59EEA0CB2349DD6C0028EC2D /* Build configuration list for PBXNativeTarget "NdukaGloriaHW4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EEA0CC2349DD6C0028EC2D /* Debug */,
+				59EEA0CD2349DD6C0028EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59EEA0952349DD680028EC2D /* Project object */;
+}
