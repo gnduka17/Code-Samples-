@@ -1,0 +1,16 @@
+gloria, nduka, nduka@usc.edu,19,true,hey, i
+Sam,smith,d@tfgss.com,45,true,104,classmate
+Mary,Rodriguez,Maryr@usc.edu,22,TRUE,Car seller,Catherine's cousin,104 classmate
+David,Hernandez,Davidh@usc.edu,19,FALSE,Carpool,201 classmate
+
+James, Johnson,Jamesj@usc.edu,21,TRUE,Cousin,Best Friend
+Tiffany,Smith,Tiffanys@usc.edu,22,FALSE,Lend textbooks,Wilson's friend
+
+
+
+James,Smith,jamess@usc.edu,19,False,201 classmate,subleasing appartemnt,couch seller,TV seller,bike lender
+Elizabeth,Miller,EMiller@usc.edu,18,FALSE,201 classmate
+Martha,Wilson,Wilson@usc.edu,18,TRUE,201 classmate
+Jane,Taylor,Taylor@usc.edu,19,TRUE,201 classmate,104 classmate
+Janeq,Taylora,Taylord@usc.edu,19,TRUE,201 classmate,104 classmate
+Janew,Taylors,Taylorf@usc.edu,19,TRUE,201 classmate,104 classmate
