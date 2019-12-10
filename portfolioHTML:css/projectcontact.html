@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Gloria Nduka - contact
+	</title>
+	<link rel="stylesheet" type="text/css" href="projectstyles.css">
+	<style>
+		.infocontainer{
+			position: absolute;
+			top: 100px;
+			left: 390px;
+			width: 490px;
+		}
+		#sidecontainer{
+			position: absolute;
+			top:270px ;
+			left:80px ;
+		}
+		#insta{
+			width: 40px;
+			border-radius: 50%;
+		}	
+		#linkedin{
+			width:41px;
+		}
+		#face{
+			width:47px;
+			position: relative;
+			right: 2px;
+		}
+		.icon{
+			margin: 3px;
+		}
+		.icon:hover{
+			opacity: 0.7;
+		}	
+		.requ:before{ 
+			content:" *"; 
+		}
+		input{
+			width: 200px;
+		}
+		textarea{
+			width: 350px;
+			height: 130px;
+		}
+		body{
+			font-family: "Courier New", Courier, monospace;
+		}
+	</style>
+</head>
+<body>
+	<div id="theblacksheet">
+		<div id="header">
+			<a href="index.html"><img src="logo.jpg"/></a>
+		</div>
+		<div id ="navi">
+			<ul>
+				<li><a class="otherpages" href="index.html"> home</a></li>
+				<li><a class="otherpages" href="projectaboutme.html"> about me</a></li>
+				<li><a class="otherpages" href="projectresume.html">resume</a></li>
+				<li><a class="otherpages" href="projectpictures.html">pictures</a></li>
+				<li><a class="otherpages" href="projectcontact.html"><u>contact</u></a></li>
+			</ul>
+			<div class="clearfloat"></div>	
+		</div>
+		<div class="clearfloat"></div>
+		<div class = "infocontainer">
+	
+			<h1> i'd LOVE to hear from you</h1>
+			
+			<p>Hi guys! If you have any questions or want to send me a cute 'lil message, please feel free to fill the form below :) </p>
+
+
+
+			<form action="projectconfirmation.html" method="GET">
+				<div class = "form-row">
+					<label class="requ">Name: </label>
+					<br>
+					<input type="text" name="name"/>
+				</div>
+				<br>
+				<div class="form-row">
+					<label class="requ">Email:</label>
+					<br>
+					<input type="email" name="email"/>
+				</div>
+					<br>
+				<div class="form-row">
+					<label class="requ">Message:</label>
+					<br>
+					<textarea name ="message"></textarea>
+				</div>
+				<br>
+				<div class="form-row">
+					<button type = "submit">Send</button>
+				</div>
+			</form>
+		</div>
+		<div id="sidecontainer">
+			<h3>Contact:</h3>
+			<p><strong>cell phone:</strong> (206) 687-6311</p>
+			<p><strong>email:</strong> nduka@usc.edu</p>
+
+			<a href="https://www.instagram.com/gloria_n206/" class = "icon" target="_blank"> <img id="insta" src="projectnewinsta.png"></a>
+			
+			<a href="https://www.linkedin.com/in/gloria-nduka/" class = "icon" target="_blank"> <img id="linkedin" src="projectlinked.png"></a>
+		
+			<a href="https://www.facebook.com/gloria.n206" class = "icon" target="_blank"> <img id="face" src="projectface.png"></a>
+		</div>
+		<div id="footer">
+			website created by gloria nduka
+		</div>
+	</div>
+</body>
+</html>
