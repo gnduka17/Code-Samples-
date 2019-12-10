@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gloria Nduka - pictures</title>
+	<link rel = "stylesheet" type="text/css" href = "projectstyles.css">
+</head>
+<style>
+	h1{
+		font-family: "Courier New", Courier, monospace;
+	}
+	.infocontainer{
+		position: absolute;
+		top: 100px;
+		left: 200px;
+		width: 600px;
+	}
+	.infocontainer h1{
+		position: relative;
+		left:200px;
+		top:50px;
+	}
+	
+	#picbox{
+    	background-image: url(projectme3.jpg);
+    	background-size: cover;
+    	overflow: hidden;
+		border:1px solid white;
+		width: 230px;
+		height: 170px;
+		float: left;
+		margin: 20px;
+	}
+	#picbox2{
+    	background-image: url(projectfre6.jpg);
+    	background-size: cover;
+    	overflow: hidden;
+		border:1px solid white;
+		width: 230px;
+		height: 170px;
+		float: left;
+		margin: 20px;
+	}
+	
+	#picbox:hover{
+    	cursor: pointer;
+    }
+    #picbox:hover .caption{
+    	transform: translate(0px, 0px);
+    	opacity: 1;
+    	height: 300px;
+        width: 100%;
+        text-align: center;
+        padding-top: 70px;
+
+    }
+    #picbox .caption{
+    	background-color: rgba(0, 0,0, 0.8);
+    	color: white;
+    	transform: translate(0px, -20px);
+    	opacity: 0;
+    	transition: transform 0.3s, opacity 0.3s;
+    	font-family: "Courier New", Courier, monospace;	
+    }
+    #picbox2:hover{
+    	cursor: pointer;
+    }
+    #picbox2:hover .caption{
+    	transform: translate(0px, 0px);
+    	opacity: 1;
+    	height: 300px;
+        width: 100%;
+        text-align: center;
+        padding-top: 70px;
+
+    }
+    #picbox2 .caption{
+    	background-color: rgba(0, 0,0, 0.8);
+    	color: white;
+    	transform: translate(0px, -20px);
+    	opacity: 0;
+    	transition: transform 0.3s, opacity 0.3s;
+    	font-family: "Courier New", Courier, monospace;	
+    }
+    
+</style>
+<body>
+	<div id="theblacksheet">
+		<div id="header">
+			<a href="index.html"><img src="logo.jpg"/></a>
+		</div>
+		<div id ="navi">
+			<ul>
+				<li><a class="otherpages" href="index.html">home</a></li>
+				<li><a class="otherpages" href="projectaboutme.html">about me</a></li>
+				<li><a class="otherpages" href="projectresume.html">resume</a></li>
+				<li><a class="otherpages" href="projectpictures.html"><u>pictures</u></a></li>
+				<li><a class="otherpages" href="projectcontact.html">contact</a></li>
+			</ul>
+			<div class="clearfloat"></div>	
+		</div>
+			<div class="clearfloat"></div>
+			<div class="infocontainer">
+				<h1>Gallery</h1>
+				<br><br><br>
+				<a href="projectpicsme.html">
+					<div id="picbox">
+						<div class = "caption">Me</div>
+					</div>
+				</a>
+				<a href="projectpicsfam.html">
+					<div id="picbox2">
+						<div class = "caption">Family/Friends</div>
+					</div>
+				</a>
+				<div class="clearfloat"></div>
+			</div>
+		
+		<div id="footer">
+			website created by gloria nduka
+		</div>
+	</div>
+</body>
+</html>

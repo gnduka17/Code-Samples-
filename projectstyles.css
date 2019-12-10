@@ -1,0 +1,80 @@
+html,body{
+		margin: 0px;
+	    padding: 0px;
+	    border: 0px; 
+	    height: 100%;
+		background-color: black;
+	}
+	body{
+		display: block;
+	  	background-image: url(picofme1.jpg);
+	  	background-size: 700px;
+	  	background-repeat: no-repeat;
+	  	background-position: right;
+	    overflow: auto;
+	}
+	#theblacksheet{
+		background-color: rgba(0,0,0,0.67);
+		height: 100%;
+		padding: 10px;
+		color: white;
+		overflow: auto;
+	}
+	#footer{
+		width:100px;
+		color: gray;
+		position: fixed;
+		bottom:3px;
+		right: 0px;
+		font-family: "Courier New", Courier, monospace;
+		font-size: 14px;
+	}
+	#otherpages{
+		text-decoration: none;
+		color: white;
+	}
+	#navi a{
+		text-decoration: none;
+		font-size: 20px;
+		font-family: "Courier New", Courier, monospace;
+	}
+	a:visited {
+	    color: white;
+	}
+	a:active {
+	    color: gray;
+	}
+	#navi ul{
+		list-style: none;
+		margin:0px;
+		padding: 0px;
+		position: absolute;
+		top: -10px;
+		right: 0;
+	}
+	#navi li{
+		float: left;
+		text-align: center;
+		padding: 30px;
+	}
+	.otherpages:hover{
+		color:#2A7B88 ;
+
+	}
+	
+	.clearfloat {
+		clear: both;
+	}
+	#navi{
+		float: right;
+	}
+	#header img{
+		float: left;
+		width:150px;
+		top:10px;
+		position:absolute;
+		left: 40px;	
+	}
+	#header img:hover{
+		opacity: 0.3;
+	}
